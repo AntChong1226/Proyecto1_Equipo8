@@ -9,7 +9,7 @@ Este es el Repo. del Equipo 8 :D
 ## __Organización__
 División | Equipo👓🎻🕶️🔥
 ---------|--------
-HTML|Diego Vapnik, Diego Muriel
+HTML|Diego Vapnik🕶️, Diego Muriel🔥
 PHP| Montze Baez👓, Aranxta Junco🎻, Diego Vapnik🕶️ y Diego Muriel🔥
 SQL| Aranxta Junco🎻, Montze Baez👓
 CSS| Diego Vapnik🕶️, Montze Baez👓, Aranxta Junco🎻 y Diego Muriel🔥 
