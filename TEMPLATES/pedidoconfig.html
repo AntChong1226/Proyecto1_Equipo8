@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr"><!--Esta página debe de estar en u PHP con Echos-->
+  <head>
+    <meta charset="utf-8">
+    <title>Configuración del Pedido  |  Cafetería Coyote</title>
+  </head>
+  <body>
+    <header>
+      <section>
+        <div class="nav">
+          <!--Aquí va el Nav-->
+        </div>
+        <div class="titulo">
+          <h1>Configura tu pedido</h1>
+        </div>
+      </section>
+    </header>
+    <section>
+      <div class="pedido">
+        <form action="index.html" method="post"><!--Colocar página a enviar info-->
+          Forma de Entrega:
+          <select name="metodo" required>
+            <option value="cafe">Recoger en la cafetería Coyote</option>
+            <option value="salon">Entregar en una ubicación específica</option>
+          </select>
+          Lugar de Entrega:
+          <select name="lugar" required>
+            <option value="cafetería">Cafetería Coyote</option>
+            <optgroup label="salón">
+              <option value="401">401</option>
+              <option value="401">402</option>
+              <option value="401">403</option>
+              <option value="401">404</option>
+              <option value="401">405</option>
+              <option value="401">406</option>
+              <option value="401">407</option>
+              <option value="401">408</option>
+              <option value="401">409</option>
+              <option value="401">410</option>
+              <option value="401">411</option>
+              <option value="401">412</option>
+              <option value="401">413</option>
+              <option value="401">414</option>
+              <option value="401">415</option>
+              <option value="401">416</option>
+              <option value="401">417</option>
+              <option value="401">418</option>
+              <option value="quinto">Los de Quinto</option>
+              <option value="sexto">Los de sexto</option><!--Colocar los demás salones y lugares-->
+              <option value="As">Los A</option>
+              <option value="Hs">Los H</option>
+              <option value="Laboratiorios">Los Laboratiorios</option>
+            </optgroup>
+            <option value="demas">Demás lugares de la prepa</option>
+          </select>
+          <h2>Confirmación del Pedido</h2>
+          <p>Marque la comida que está seguro conformará su pedido</p><!--O podemos intentar solo meter esta parte en PHP, pero creo sería mejor todo-->
+          <input type="checkbox" name="op1">Opción1<br><!--Aquí colocaremos las variables de acuerdo  las opciones del cliente-->
+          <input type="checkbox" name="op2">Opción2<br>
+          <input type="checkbox" name="op3">Opción3<br>
+          <input type="checkbox" name="op4">Opción4<br>
+          <input type="checkbox" name="op5">Opción5<br>
+          <input type="submit" name="eNviar" placeholder="Generar Pedido">
+        </form>
+      </div>
+    </section>
+    <footer>
+      <section>
+        <div class="titulofooter">
+          <h4><u>Footer</u></h4>
+        </div>
+        <div class="contacto">
+          <a href="Contacto.html">Página de Contacto</a>
+        </div>
+        <div class="direccion">
+          <img src="https://static.vecteezy.com/system/resources/previews/000/552/663/non_2x/geo-location-pin-vector-icon.jpg" alt="Pint Logo" width="20px">
+          <p><a href="https://www.google.com.mx/maps/place/Escuela+Nacional+Preparatoria+N%C2%B0+6+%22Antonio+Caso%22+UNAM/@19.3521753,-99.1561553,17z/data=!3m1!4b1!4m5!3m4!1s0x85d1ffcf9cc30dbd:0xf8b434a6ebcd6c83!8m2!3d19.3521753!4d-99.1561553"><u>Corina 3, Del Carmen, Coyoacán, 04100 Ciudad de México, CDMX</u></a></p>
+        </div>
+        <div class="legal">
+          <p>Copyright (c) 2020 Copyright Holder All Rights Reserved.</p>
+        </div>
+        <div class="autores">
+          <p>Diego Vapnik, Montze Baez, Aranxta Junco, Diego Muriel.</p>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
