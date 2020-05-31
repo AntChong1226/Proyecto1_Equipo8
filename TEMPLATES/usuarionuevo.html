@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registro de Usuario  |  Cafetería Coyote</title>
+  </head>
+  <body>
+    <h1><b><u>Hola Usuario Nuevo!</u></b></h1>
+    <div class="container">
+      <span>Por favor indique que tipo de Usuario es, gracias</span>
+      <form action="../DYNAMICS/tipodeusuario.php" method="post">
+        <select name="TipoDeUsuario">
+          <option value="1">Alumno</option>
+          <option value="2">Profesor o Funcionario</option>
+          <option value="3">Trabajador</option>
+        </select>
+        <input type="submit" name="enviar" placeholder="Continuar">
+      </form>
+    </div>
+  </body>
+</html>
